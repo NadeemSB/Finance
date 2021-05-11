@@ -2,7 +2,6 @@
 import datetime as dt
 import matplotlib.pyplot as plt
 import pandas_datareader.data as web
-! pip install beautifulsoup4
 
 def sma20_computation(ticker):
   start = dt.datetime(2020,1,1)
